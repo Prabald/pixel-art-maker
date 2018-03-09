@@ -1,0 +1,132 @@
+body 
+    {
+        text-align: center;
+        font-family: 'Comfortaa', cursive;
+        background-image: url("https://static.pexels.com/photos/187334/pexels-photo-187334.jpeg");
+        
+       
+         background-position: center center;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-size: cover;
+        
+    }
+
+h1
+    {
+        
+        font-family: 'Megrim', cursive;
+        font-size: 70px;
+        margin: 0.2em;
+        text-shadow:0px 0px 10px aqua;
+    }
+
+h2:hover,h1:hover
+    {
+        text-shadow:0px 0px 20px blue;
+    }
+
+.footer
+{
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    }
+h2 
+    {
+        margin: 1em 0 0.25em;
+    }
+
+h2:first-of-type
+    {
+        margin-top: 0.5em;
+    }
+
+table,
+tr,
+td 
+    {
+        border: 1px solid lightgrey;
+    }
+
+table 
+    {
+
+        margin: 0 auto;
+    }
+
+tr 
+    {
+        height: 20px;
+    }
+
+td {
+    width: 20px;
+}
+
+input[type=number] 
+    {
+        width: 6em;
+        opacity:1;
+    }
+
+input:hover
+    {
+        box-shadow: 0px 0px 10px blue;
+    }
+
+.color-1
+    {
+        background-color: red;
+    }
+
+.color-2
+    {
+        background-color: blue;
+    }
+
+.color-3
+    {
+        background-color: green;
+    }
+
+.color-4
+    {
+        background-color: purple;
+    }
+
+.color-5
+    {
+        background-color: yellow;
+    }
+
+.color-6
+    {
+       background-color: black; 
+    }
+
+#pixelCanvas
+    {   
+        border-width:thin;
+        border-color: rgb(227,222,157);
+        background-color: white;
+        border: 10px;
+        box-shadow: 10,10,10,10;
+        box-shadow: 5px 5px 10px rgb(37, 21, 2);
+    }
+
+#sizePickerContainer
+    {
+        background-color: lightskyblue;
+        width:800px;
+        position:relative;
+        margin:0 auto;
+        padding:10px;
+        border:4px solid black;
+        border-radius:10px;
+        text-align: center;
+        height:auto;
+        box-shadow: 0 0 40px grey;
+    }

@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+    
+    <head>
+            <title>Pixel Art Maker!</title>
+        
+            <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Monoton">
+            <script type="text/javascript"   src="http://ajax.googleapis.com/ajax/libs/jquery/1.6.1/jquery.min.js"></script>
+            <link href="https://fonts.googleapis.com/css?family=Comfortaa" rel="stylesheet">
+            <link href="https://fonts.googleapis.com/css?family=Chewy|Megrim" rel="stylesheet">
+            <link rel="stylesheet" href="styles.css">
+    </head>
+    
+    <body>
+            <h1>Pixel Art Maker</h1>
+
+            <h2>Choose Grid Size</h2>
+
+            <div id="sizePickerContainer">
+
+                <form id="sizePicker">
+                    Grid Height:
+                    <input type="number" id="inputHeight" name="height" min="1" value="40" >
+
+                    Grid Width:
+                    <input type="number" id="inputWidth" name="width" min="1" value="40">
+
+                    Pixel Size
+                    <input type="number" id="pixelSize" min="0.5" value="10">
+
+                    Grid Visibility
+                    <input id="gridVisibility" type="checkbox" checked>
+
+                    <input id="createGrid" type="submit">
+                </form>
+
+            </div>
+
+            <h2>Pick A Color</h2>
+
+            <form id="colorSelector">
+                <input type="color" id="colorPicker" >
+
+                <span style="white-space:pre"></span>
+
+                <input class="color-1 predefColors" name="red" type="submit" value="   ">
+
+                <input class="color-2 predefColors" name="blue" type="submit" value="   ">
+
+                <input class="color-3 predefColors" name="green" type="submit" value="   ">
+
+                <input class="color-4 predefColors" name="purple" type="submit" value="   ">
+
+                <input class="color-5 predefColors" name="yellow" type="submit" value="   ">
+
+                <input class="color-6 predefColors" name="black" type="submit" value="   ">
+
+            </form>
+
+            <h2>Design Canvas</h2>
+
+            <table id="pixelCanvas"></table>
+
+            <script src="designs.js"></script>
+        
+        
+            
+        <div class="footer">Created by <a href="https://www.facebook.com/3pictroller" target="_blank"><strong>Prabal Dhasmana</strong></a><div>
+    </body>
+    
+</html>
