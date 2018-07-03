@@ -1,7 +1,7 @@
 
 let color="black";
 let mouseDown=false;
-
+alert("hoii");
 function makeGrid(){
 
     $("#pixelCanvas").children().remove(); //To reset the canvas
